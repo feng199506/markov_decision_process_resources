@@ -1,0 +1,57 @@
+[
+ {
+  "arxiv": "1711.10125",
+  "subtopic": "医疗序贯决策",
+  "type": "综述",
+  "level": "硕士",
+  "difficulty": "中级",
+  "classic_reason": "医疗 RL 综述：强调观测混叠、奖励与临床目标不一致、离策略偏差。",
+  "reason": "应用案例；区分回顾性数据与前瞻试验。",
+  "summary": "临床决策中的 MDP/RL 设定与风险。",
+  "summary_basis": "arXiv 摘要"
+ },
+ {
+  "arxiv": "1906.04060",
+  "subtopic": "库存与供应链",
+  "type": "原始研究论文",
+  "level": "硕士",
+  "difficulty": "中级",
+  "classic_reason": "深度 RL 用于库存的研究模拟，需与经典 (s,S) 基线对照。",
+  "reason": "库存 MDP：状态/动作/成本设计。",
+  "summary": "库存控制的深度 RL 实验（模拟器，非部署证据）。",
+  "summary_basis": "arXiv 摘要"
+ },
+ {
+  "arxiv": "2005.10619",
+  "subtopic": "运维与维护",
+  "type": "综述",
+  "level": "硕士",
+  "difficulty": "中级",
+  "classic_reason": "维护/维修 RL 综述，区分仿真与现场验证。",
+  "reason": "工业维护建模。",
+  "summary": "预防性维护的 MDP/RL 文献图景。",
+  "summary_basis": "arXiv 摘要"
+ },
+ {
+  "arxiv": "1908.02252",
+  "subtopic": "电力系统与能源",
+  "type": "综述",
+  "level": "硕士",
+  "difficulty": "中级",
+  "classic_reason": "电网/能源 RL 综述，强调安全约束与仿真局限。",
+  "reason": "能源决策案例。",
+  "summary": "电力市场、调度与控制中的 RL。",
+  "summary_basis": "arXiv 摘要"
+ },
+ {
+  "arxiv": "1811.06132",
+  "subtopic": "交通信号与交通流",
+  "type": "综述",
+  "level": "硕士",
+  "difficulty": "中级",
+  "classic_reason": "交通信号 RL 综述：马尔科夫假设与路网部分可观测。",
+  "reason": "交通应用。",
+  "summary": "交通信号控制的 RL 方法与仿真平台。",
+  "summary_basis": "arXiv 摘要"
+ }
+]

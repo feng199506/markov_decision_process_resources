@@ -1,0 +1,56 @@
+[
+ {
+  "arxiv": "1705.10528",
+  "subtopic": "约束策略优化",
+  "type": "原始研究论文",
+  "level": "硕士",
+  "difficulty": "中级",
+  "classic_reason": "CPO（ICLR 2017）：CMDP 上的信赖域方法。",
+  "reason": "约束 MDP 与拉格朗日/信赖域可行性。",
+  "summary": "期望约束下的近似单调改进。",
+  "summary_basis": "arXiv 摘要"
+ },
+ {
+  "arxiv": "1506.02188",
+  "subtopic": "CVaR 风险敏感",
+  "type": "原始研究论文",
+  "level": "博士",
+  "difficulty": "高级",
+  "classic_reason": "Chow et al. 风险约束/CVaR MDP 的策略梯度方法。",
+  "reason": "风险敏感与 CVaR。",
+  "summary": "CVaR 约束下的策略优化。",
+  "summary_basis": "arXiv 摘要"
+ },
+ {
+  "arxiv": "2108.06239",
+  "subtopic": "鲁棒强化学习综述",
+  "type": "综述",
+  "level": "硕士",
+  "difficulty": "中级",
+  "classic_reason": "2021-08 鲁棒 RL 综述，覆盖不确定转移与对抗扰动。",
+  "reason": "鲁棒 MDP 与模型误差。",
+  "summary": "鲁棒 MDP/RL 设定、算法与评测。",
+  "summary_basis": "arXiv 摘要"
+ },
+ {
+  "arxiv": "2204.05969",
+  "subtopic": "约束强化学习综述",
+  "type": "综述",
+  "level": "硕士",
+  "difficulty": "中级",
+  "reason": "窗口内约束 RL 综述，对应安全约束与可行性。",
+  "summary": "CMDP、罚函数、拉格朗日与安全探索。",
+  "summary_basis": "arXiv 摘要"
+ },
+ {
+  "arxiv": "1704.03976",
+  "subtopic": "李雅普诺夫安全约束",
+  "type": "原始研究论文",
+  "level": "博士",
+  "difficulty": "高级",
+  "classic_reason": "Chow et al. 李雅普诺夫方法处理安全约束。",
+  "reason": "可行性与安全约束的控制视角。",
+  "summary": "李雅普诺夫函数构造可行策略集。",
+  "summary_basis": "arXiv 摘要"
+ }
+]

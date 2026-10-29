@@ -1,0 +1,45 @@
+[
+ {
+  "arxiv": "1910.00189",
+  "subtopic": "Rollout 与策略迭代",
+  "type": "原始研究论文",
+  "level": "博士",
+  "difficulty": "高级",
+  "classic_reason": "Bertsekas 多智能体 rollout：一次策略迭代/MPC 视角，连接精确 PI 与近似。",
+  "reason": "策略迭代的一次改进（rollout）及误差传播。",
+  "summary": "多代理 rollout、策略改进性质与计算分解。",
+  "summary_basis": "arXiv 摘要"
+ },
+ {
+  "arxiv": "1312.6026",
+  "subtopic": "线性规划与近似 DP",
+  "type": "原始研究论文",
+  "level": "博士",
+  "difficulty": "高级",
+  "classic_reason": "近似线性规划求解 MDP 的代表工作，说明 LP 表述与计算复杂度。",
+  "reason": "Bellman 不等式的 LP 松弛与近似。",
+  "summary": "MDP 的线性规划、近似 LP 与误差。",
+  "summary_basis": "arXiv 摘要"
+ },
+ {
+  "arxiv": "2106.00794",
+  "subtopic": "策略迭代复杂度",
+  "type": "原始研究论文",
+  "level": "博士",
+  "difficulty": "高级",
+  "classic_reason": "2021-06 略早于窗口，保留为 PI 复杂度分析。",
+  "reason": "策略迭代收敛速度与最坏情形。",
+  "summary": "策略迭代的迭代复杂度结果。",
+  "summary_basis": "arXiv 摘要"
+ },
+ {
+  "arxiv": "2204.07137",
+  "subtopic": "价值迭代与函数逼近",
+  "type": "原始研究论文",
+  "level": "博士",
+  "difficulty": "高级",
+  "reason": "五年窗口内价值迭代/拟合迭代的误差讨论。",
+  "summary": "拟合价值迭代的误差分解与稳定性。",
+  "summary_basis": "arXiv 摘要"
+ }
+]

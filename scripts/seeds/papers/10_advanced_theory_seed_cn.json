@@ -1,0 +1,56 @@
+[
+ {
+  "arxiv": "1706.02275",
+  "subtopic": "多智能体 Actor-Critic",
+  "type": "原始研究论文",
+  "level": "硕士",
+  "difficulty": "中级",
+  "classic_reason": "MADDPG：马尔科夫博弈中的集中训练分散执行。",
+  "reason": "随机博弈/多智能体基础。",
+  "summary": "多智能体 DDPG 与合作/竞争环境。",
+  "summary_basis": "arXiv 摘要"
+ },
+ {
+  "arxiv": "1803.11485",
+  "subtopic": "价值分解",
+  "type": "原始研究论文",
+  "level": "硕士",
+  "difficulty": "中级",
+  "classic_reason": "QMIX：单调价值分解。",
+  "reason": "合作马尔科夫博弈的价值分解。",
+  "summary": "混合网络保证个体-全局单调性。",
+  "summary_basis": "arXiv 摘要"
+ },
+ {
+  "arxiv": "1609.05140",
+  "subtopic": "分层与选项",
+  "type": "原始研究论文",
+  "level": "硕士",
+  "difficulty": "中级",
+  "classic_reason": "Option-Critic：半马尔科夫选项的端到端学习。",
+  "reason": "分层决策与 SMDP。",
+  "summary": "选项内部策略与终止条件的梯度。",
+  "summary_basis": "arXiv 摘要"
+ },
+ {
+  "arxiv": "1911.10635",
+  "subtopic": "多智能体 RL 综述",
+  "type": "综述",
+  "level": "硕士",
+  "difficulty": "中级",
+  "classic_reason": "Zhang, Yang, Başar 综述：MARL 设定与理论。",
+  "reason": "多智能体基础地图。",
+  "summary": "马尔科夫博弈、信息结构与算法。",
+  "summary_basis": "arXiv 摘要"
+ },
+ {
+  "arxiv": "2206.08881",
+  "subtopic": "分层强化学习综述",
+  "type": "综述",
+  "level": "硕士",
+  "difficulty": "中级",
+  "reason": "窗口内分层 RL 综述。",
+  "summary": "选项、目标条件与层次结构。",
+  "summary_basis": "arXiv 摘要"
+ }
+]

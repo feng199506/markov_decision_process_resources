@@ -1,0 +1,65 @@
+[
+ {
+  "arxiv": "2407.17032",
+  "subtopic": "环境 API",
+  "type": "原始研究论文",
+  "level": "工程",
+  "difficulty": "入门",
+  "reason": "Gymnasium 论文：terminated/truncated、重置与互操作。NeurIPS 2025 轨道以论文页为准。",
+  "summary": "标准化 RL 环境接口与设计选择。",
+  "summary_basis": "arXiv 摘要"
+ },
+ {
+  "arxiv": "2005.05753",
+  "subtopic": "Stable-Baselines3",
+  "type": "原始研究论文",
+  "level": "工程",
+  "difficulty": "入门",
+  "classic_reason": "SB3 报告：可靠基线实现。",
+  "reason": "算法参考实现与工程接口。",
+  "summary": "SB3 设计、算法与基准。",
+  "summary_basis": "arXiv 摘要"
+ },
+ {
+  "arxiv": "2111.08819",
+  "subtopic": "CleanRL",
+  "type": "原始研究论文",
+  "level": "工程",
+  "difficulty": "入门",
+  "reason": "窗口内单文件实现与可复现实验配置。",
+  "summary": "CleanRL 设计原则与算法套件。",
+  "summary_basis": "arXiv 摘要"
+ },
+ {
+  "arxiv": "2306.00577",
+  "subtopic": "TorchRL",
+  "type": "原始研究论文",
+  "level": "工程",
+  "difficulty": "中级",
+  "reason": "窗口内 PyTorch 原生 RL 库。",
+  "summary": "TorchRL 模块：env、data、objectives。",
+  "summary_basis": "arXiv 摘要"
+ },
+ {
+  "arxiv": "2009.14471",
+  "subtopic": "PettingZoo",
+  "type": "原始研究论文",
+  "level": "工程",
+  "difficulty": "入门",
+  "classic_reason": "PettingZoo 多智能体环境 API。",
+  "reason": "多智能体环境接口文档对应。",
+  "summary": "AEC/Parallel API 与环境套件。",
+  "summary_basis": "arXiv 摘要"
+ },
+ {
+  "arxiv": "1908.09453",
+  "subtopic": "OpenSpiel",
+  "type": "原始研究论文",
+  "level": "工程",
+  "difficulty": "中级",
+  "classic_reason": "OpenSpiel：博弈与多智能体研究平台。",
+  "reason": "随机博弈求解器与环境。",
+  "summary": "OpenSpiel 游戏、算法与评测。",
+  "summary_basis": "arXiv 摘要"
+ }
+]

@@ -1,0 +1,53 @@
+[
+ {
+  "pdf_url": "http://incompleteideas.net/papers/sutton-88-td.pdf",
+  "title": "Learning to Predict by the Methods of Temporal Differences",
+  "authors": [
+   "Richard S. Sutton"
+  ],
+  "date": "1988-08-01",
+  "date_basis": "Machine Learning 3:9–44 (1988)",
+  "venue": "Machine Learning",
+  "landing": "http://incompleteideas.net/papers/sutton-88-td.pdf",
+  "subtopic": "时序差分与条件期望",
+  "type": "原始研究论文",
+  "level": "硕士",
+  "difficulty": "中级",
+  "classic_reason": "TD(0)/TD(λ) 奠基，连接动态规划与从轨迹学习，是 MDP 无模型预测的起点。",
+  "reason": "先修：条件期望形式的价值更新，后续 MC/TD/资格迹都从此展开。",
+  "summary": "用时序差分误差估计未来回报的条件期望，给出 TD(λ) 与收敛讨论。",
+  "summary_basis": "作者站点 PDF 摘要/引言"
+ },
+ {
+  "arxiv": "1811.12560",
+  "subtopic": "深度强化学习导论",
+  "type": "综述",
+  "level": "硕士",
+  "difficulty": "入门",
+  "classic_reason": "2018 年系统导论，把 MDP、DP、无模型与深度函数逼近串成一条阅读路径。",
+  "reason": "用一篇综述补齐从 MDP 到深度函数逼近的词汇，不替代教材。",
+  "summary": "MDP 形式、价值/策略方法、深度 RL 与稳定性问题。",
+  "summary_basis": "arXiv 摘要"
+ },
+ {
+  "arxiv": "2003.06898",
+  "subtopic": "线性函数逼近可证明效率",
+  "type": "原始研究论文",
+  "level": "博士",
+  "difficulty": "高级",
+  "classic_reason": "NeurIPS 2020 主会：线性函数逼近下可证明样本效率，是近年理论入口。",
+  "reason": "把占用测度、线性 MDP 与探索代价写清楚，服务基础理论与核心 MDP。",
+  "summary": "线性函数逼近 MDP 的乐观最小二乘价值迭代及遗憾界。",
+  "summary_basis": "arXiv 摘要"
+ },
+ {
+  "arxiv": "2206.13452",
+  "subtopic": "强化学习理论近期进展",
+  "type": "综述",
+  "level": "博士",
+  "difficulty": "高级",
+  "reason": "五年窗口内对可证明 RL 的综述，对照 Agarwal 教材草稿。",
+  "summary": "表格与函数逼近设定下的样本复杂度、探索与函数逼近误差。",
+  "summary_basis": "arXiv 摘要"
+ }
+]

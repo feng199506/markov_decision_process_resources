@@ -1,0 +1,46 @@
+[
+ {
+  "arxiv": "1806.01242",
+  "subtopic": "占用测度与对偶",
+  "type": "原始研究论文",
+  "level": "博士",
+  "difficulty": "高级",
+  "classic_reason": "ICML 2018 DualDICE：用占用测度对偶做离策略评价，是占用测度进入算法的代表。",
+  "reason": "把状态-动作占用写成可学习密度比，连接 MDP 核心对象与离策略评价。",
+  "summary": "折扣占用测度、密度比与 DualDICE 估计。",
+  "summary_basis": "arXiv 摘要"
+ },
+ {
+  "arxiv": "1910.01741",
+  "subtopic": "平均奖励 MDP",
+  "type": "原始研究论文",
+  "level": "博士",
+  "difficulty": "高级",
+  "classic_reason": "平均奖励设定的现代算法分析，补折扣准则之外的无限时域。",
+  "reason": "平均奖励、微分价值与折扣极限关系。",
+  "summary": "平均奖励策略优化/评价的偏差与算法。",
+  "summary_basis": "arXiv 摘要"
+ },
+ {
+  "arxiv": "2108.09003",
+  "subtopic": "平均奖励与折扣",
+  "type": "原始研究论文",
+  "level": "博士",
+  "difficulty": "高级",
+  "classic_reason": "2021-08 投稿，略早于五年窗口起点，保留为平均奖励对照。",
+  "reason": "折扣与平均奖励目标的算法差异，避免只按折扣 γ 思考无限时域。",
+  "summary": "平均奖励 MDP 的策略评价与优化方法。",
+  "summary_basis": "arXiv 摘要"
+ },
+ {
+  "arxiv": "2008.07931",
+  "subtopic": "折扣与平均奖励策略优化",
+  "type": "原始研究论文",
+  "level": "博士",
+  "difficulty": "高级",
+  "classic_reason": "2020 年对折扣/平均奖励策略梯度的理论分析。",
+  "reason": "无限时域目标选择如何改变梯度与平稳分布。",
+  "summary": "折扣与平均奖励策略梯度的偏差、方差与收敛条件。",
+  "summary_basis": "arXiv 摘要"
+ }
+]
