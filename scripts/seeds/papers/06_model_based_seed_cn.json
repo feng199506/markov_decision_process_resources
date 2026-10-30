@@ -5,10 +5,10 @@
   "type": "综述",
   "level": "硕士",
   "difficulty": "中级",
-  "classic_reason": "2020 投稿、后续期刊扩充，是 MBRL 分类（规划/学习/Dyna 式）的常用综述。",
-  "reason": "未知转移、规划与学习、模型误差的地图。",
-  "summary": "模型学习、规划、Dyna 式混合与挑战。",
-  "summary_basis": "arXiv 摘要"
+  "reason": "未知转移、规划与学习、模型误差的分类地图。",
+  "summary": "MBRL：模型学习、规划、Dyna 式混合。",
+  "summary_basis": "arXiv 摘要与元数据",
+  "classic_reason": "2020 综述，后有期刊扩充。"
  },
  {
   "arxiv": "1911.08265",
@@ -16,10 +16,10 @@
   "type": "原始研究论文",
   "level": "硕士",
   "difficulty": "中级",
-  "classic_reason": "MuZero：学习模型上做树搜索，连接 DP 规划与无奖励规则环境。",
-  "reason": "隐式模型、MCTS 与价值/策略。",
-  "summary": "MuZero 在 Atari/棋类上的规划-学习。",
-  "summary_basis": "arXiv 摘要"
+  "reason": "隐式模型上的树搜索，连接 DP 规划与学习。",
+  "summary": "MuZero。",
+  "summary_basis": "arXiv 摘要与元数据",
+  "classic_reason": "2019/2020 Nature 脉络。"
  },
  {
   "arxiv": "2301.04104",
@@ -27,9 +27,9 @@
   "type": "原始研究论文",
   "level": "硕士",
   "difficulty": "中级",
-  "reason": "窗口内 DreamerV3：在想象中规划/学习，强调模型误差下的稳定性。",
-  "summary": "世界模型、想象轨迹与离散/连续控制。",
-  "summary_basis": "arXiv 摘要"
+  "reason": "在想象中学习，强调模型误差下的稳定性。",
+  "summary": "DreamerV3。",
+  "summary_basis": "arXiv 摘要与元数据"
  },
  {
   "arxiv": "2310.16828",
@@ -37,9 +37,9 @@
   "type": "原始研究论文",
   "level": "硕士",
   "difficulty": "中级",
-  "reason": "TD-MPC2：把价值学习与 MPC 结合，对应课程中的模型预测控制联系。",
-  "summary": "潜空间 MPC 与价值学习。",
-  "summary_basis": "arXiv 摘要"
+  "reason": "价值学习与模型预测控制结合。",
+  "summary": "TD-MPC2。",
+  "summary_basis": "arXiv 摘要与元数据"
  },
  {
   "arxiv": "2111.00210",
@@ -47,8 +47,8 @@
   "type": "原始研究论文",
   "level": "硕士",
   "difficulty": "中级",
-  "reason": "EfficientZero（NeurIPS 2021）：窗口起点后的样本高效 MuZero 变体。",
-  "summary": "自监督一致与时序差分在树搜索中的结合。",
-  "summary_basis": "arXiv 摘要"
+  "reason": "窗口起点的样本高效 MuZero 变体。",
+  "summary": "EfficientZero。",
+  "summary_basis": "arXiv 摘要与元数据"
  }
 ]

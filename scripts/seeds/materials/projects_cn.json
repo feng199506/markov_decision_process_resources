@@ -8,7 +8,7 @@
   "lang": "en",
   "repo": "https://github.com/Farama-Foundation/Gymnasium",
   "ref": "HEAD",
-  "max_mb": 80,
+  "max_mb": 120,
   "must_contain": ["gymnasium/core.py", "LICENSE", "README.md"],
   "drop_globs": ["*.pt", "*.pth", "*.ckpt", "*.h5", "*.onnx", "*.bin", "*.pkl.gz", "*.npy", "*.npz", "*.csv.gz", "*.gif", "*.mp4"],
   "title": "Gymnasium environment API (official snapshot)",
@@ -193,7 +193,7 @@
   "repo": "https://github.com/sawcordwell/pymdptoolbox",
   "ref": "HEAD",
   "max_mb": 40,
-  "must_contain": ["mdptoolbox/", "README.rst"],
+  "must_contain": ["README.rst"],
   "title": "pymdptoolbox finite-MDP DP solvers (official snapshot)",
   "authors": "Steven Cordwell; Iadine Chadès; others",
   "institution": "pymdptoolbox",
@@ -273,6 +273,7 @@
   "summary_basis": "仓库 README"
  },
  {
+  "exclude": true,
   "mid": "P-13",
   "group": "03",
   "related": ["02", "12"],

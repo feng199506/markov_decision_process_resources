@@ -15,10 +15,10 @@
   "type": "综述",
   "level": "硕士",
   "difficulty": "中级",
-  "classic_reason": "JAIR 1996 综述：MDP、POMDP 与早期 RL 算法的地图。",
-  "reason": "部分可观测与记忆策略问题在入门综述中已被明确提出。",
-  "summary": "RL 问题、DP、无模型方法与泛化、部分可观测。",
-  "summary_basis": "JAIR 摘要"
+  "classic_reason": "JAIR 1996 综述。",
+  "reason": "部分可观测与记忆策略在入门综述中已被明确提出。",
+  "summary": "RL 问题、DP、无模型方法与部分可观测。",
+  "summary_basis": "原文扉页/摘要"
  },
  {
   "arxiv": "1507.06527",
@@ -26,10 +26,10 @@
   "type": "原始研究论文",
   "level": "硕士",
   "difficulty": "中级",
-  "classic_reason": "DRQN：用递归网络处理观测混叠。",
-  "reason": "记忆策略 vs 信念状态的一条实践路径。",
-  "summary": "LSTM Q 网络与部分可观测 Atari。",
-  "summary_basis": "arXiv 摘要"
+  "reason": "记忆策略处理观测混叠。",
+  "summary": "DRQN。",
+  "summary_basis": "arXiv 摘要与元数据",
+  "classic_reason": "2015 DRQN。"
  },
  {
   "arxiv": "1806.02426",
@@ -37,20 +37,20 @@
   "type": "原始研究论文",
   "level": "硕士",
   "difficulty": "高级",
-  "classic_reason": "Igl et al. 用变分滤波学信念，连接 POMDP 滤波与深度 RL。",
-  "reason": "信念状态近似。",
-  "summary": "深度变分 RL 与 POMDP。",
-  "summary_basis": "arXiv 摘要"
+  "reason": "用变分滤波近似信念状态。",
+  "summary": "深度变分 RL for POMDPs。",
+  "summary_basis": "arXiv 摘要与元数据",
+  "classic_reason": "2018 Igl et al。"
  },
  {
-  "arxiv": "2107.03922",
+  "arxiv": "2110.05038",
   "subtopic": "递归无模型 RL",
   "type": "原始研究论文",
   "level": "硕士",
   "difficulty": "中级",
-  "classic_reason": "2021-07 对递归无模型 RL 实现的系统研究，略早于窗口。",
-  "reason": "记忆策略的实现细节与评测陷阱。",
-  "summary": "递归策略/价值网络的设计选择。",
-  "summary_basis": "arXiv 摘要"
+  "reason": "记忆策略的实现与评测基线。",
+  "summary": "递归无模型 RL 可作为许多 POMDP 的强基线。",
+  "summary_basis": "arXiv 摘要与元数据",
+  "classic_reason": "2021-10，窗口起点附近。"
  }
 ]

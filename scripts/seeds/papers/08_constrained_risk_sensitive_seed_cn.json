@@ -5,10 +5,10 @@
   "type": "原始研究论文",
   "level": "硕士",
   "difficulty": "中级",
-  "classic_reason": "CPO（ICLR 2017）：CMDP 上的信赖域方法。",
-  "reason": "约束 MDP 与拉格朗日/信赖域可行性。",
-  "summary": "期望约束下的近似单调改进。",
-  "summary_basis": "arXiv 摘要"
+  "reason": "约束 MDP 上的信赖域方法。",
+  "summary": "CPO。",
+  "summary_basis": "arXiv 摘要与元数据",
+  "classic_reason": "ICLR 2017。"
  },
  {
   "arxiv": "1506.02188",
@@ -16,41 +16,54 @@
   "type": "原始研究论文",
   "level": "博士",
   "difficulty": "高级",
-  "classic_reason": "Chow et al. 风险约束/CVaR MDP 的策略梯度方法。",
-  "reason": "风险敏感与 CVaR。",
-  "summary": "CVaR 约束下的策略优化。",
-  "summary_basis": "arXiv 摘要"
+  "reason": "风险敏感与 CVaR 约束。",
+  "summary": "CVaR 优化的风险敏感决策。",
+  "summary_basis": "arXiv 摘要与元数据",
+  "classic_reason": "2015 Chow et al。"
  },
  {
-  "arxiv": "2108.06239",
-  "subtopic": "鲁棒强化学习综述",
+  "arxiv": "2205.10330",
+  "subtopic": "安全/约束 RL 综述",
   "type": "综述",
   "level": "硕士",
   "difficulty": "中级",
-  "classic_reason": "2021-08 鲁棒 RL 综述，覆盖不确定转移与对抗扰动。",
-  "reason": "鲁棒 MDP 与模型误差。",
-  "summary": "鲁棒 MDP/RL 设定、算法与评测。",
-  "summary_basis": "arXiv 摘要"
+  "reason": "安全约束、可行性与方法分类。",
+  "summary": "Safe RL：方法、理论与应用综述。",
+  "summary_basis": "arXiv 摘要与元数据"
  },
  {
-  "arxiv": "2204.05969",
-  "subtopic": "约束强化学习综述",
-  "type": "综述",
-  "level": "硕士",
-  "difficulty": "中级",
-  "reason": "窗口内约束 RL 综述，对应安全约束与可行性。",
-  "summary": "CMDP、罚函数、拉格朗日与安全探索。",
-  "summary_basis": "arXiv 摘要"
- },
- {
-  "arxiv": "1704.03976",
-  "subtopic": "李雅普诺夫安全约束",
+  "arxiv": "1801.08757",
+  "subtopic": "连续动作安全探索",
   "type": "原始研究论文",
-  "level": "博士",
-  "difficulty": "高级",
-  "classic_reason": "Chow et al. 李雅普诺夫方法处理安全约束。",
-  "reason": "可行性与安全约束的控制视角。",
-  "summary": "李雅普诺夫函数构造可行策略集。",
-  "summary_basis": "arXiv 摘要"
+  "level": "硕士",
+  "difficulty": "中级",
+  "reason": "安全约束下的探索，对应可行性。",
+  "summary": "连续动作空间中的安全探索。",
+  "summary_basis": "arXiv 摘要与元数据",
+  "classic_reason": "2018。"
+ },
+ {
+  "pdf_url": "https://www.mdpi.com/2504-4990/4/1/13/pdf",
+  "title": "Robust Reinforcement Learning: A Review of Foundations and Recent Advances",
+  "authors": [
+   "Janosch Moos",
+   "Kay Hansel",
+   "Hany Abdulsamad",
+   "Svenja Stark",
+   "Debora Clever",
+   "Jan Peters"
+  ],
+  "date": "2022-03-19",
+  "date_basis": "MAKE 4(1):276–315 (2022)",
+  "venue": "MAKE",
+  "landing": "https://www.mdpi.com/2504-4990/4/1/13",
+  "subtopic": "鲁棒 MDP/RL 综述",
+  "type": "综述",
+  "level": "硕士",
+  "difficulty": "中级",
+  "classic_reason": "2022 窗口内综述，MDPI 开放获取。",
+  "reason": "不确定转移、扰动、动作与观测鲁棒设计。",
+  "summary": "按转移/扰动/动作/观测四类综述鲁棒 RL，并联系风险与熵正则。",
+  "summary_basis": "原文扉页/摘要"
  }
 ]

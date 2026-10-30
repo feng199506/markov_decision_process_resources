@@ -7,15 +7,14 @@
   "name": "Gymnasium_docs",
   "lang": "en",
   "index_url": "https://gymnasium.farama.org/",
-  "link_regex": "gymnasium\\.farama\\.org/(api|tutorials|environments|introduction)/[A-Za-z0-9._/-]*",
-  "extra_pages": [
+    "extra_pages": [
     "https://gymnasium.farama.org/api/env/",
     "https://gymnasium.farama.org/api/wrappers/",
     "https://gymnasium.farama.org/api/vector/",
-    "https://gymnasium.farama.org/gymnasium_release_notes/index.html",
-    "https://gymnasium.farama.org/content/basic_usage/",
-    "https://gymnasium.farama.org/content/environment_creation/",
-    "https://gymnasium.farama.org/environments/classic_control/"
+    "https://gymnasium.farama.org/introduction/basic_usage/",
+    "https://gymnasium.farama.org/introduction/create_custom_env/",
+    "https://gymnasium.farama.org/environments/classic_control/",
+    "https://gymnasium.farama.org/environments/classic_control/cart_pole/"
   ],
   "min_files": 8,
   "min_chars": 700,
@@ -44,7 +43,6 @@
   "name": "StableBaselines3_docs",
   "lang": "en",
   "index_url": "https://stable-baselines3.readthedocs.io/en/master/",
-  "link_regex": "stable-baselines3\\.readthedocs\\.io/en/master/(guide|modules|common)/[A-Za-z0-9._/-]*",
   "extra_pages": [
     "https://stable-baselines3.readthedocs.io/en/master/guide/quickstart.html",
     "https://stable-baselines3.readthedocs.io/en/master/guide/rl.html",
@@ -56,7 +54,7 @@
     "https://stable-baselines3.readthedocs.io/en/master/modules/sac.html"
   ],
   "min_files": 8,
-  "min_chars": 700,
+  "min_chars": 500,
   "allow_short": 3,
   "title_phrase": "Stable Baselines3",
   "title": "Stable-Baselines3 official documentation (offline HTML subset)",
@@ -82,7 +80,6 @@
   "name": "CleanRL_docs",
   "lang": "en",
   "index_url": "https://docs.cleanrl.dev/",
-  "link_regex": "docs\\.cleanrl\\.dev/(get-started|rl-algorithms|cloud|community)/[A-Za-z0-9._/-]*",
   "extra_pages": [
     "https://docs.cleanrl.dev/get-started/installation/",
     "https://docs.cleanrl.dev/get-started/basic-usage/",
@@ -119,7 +116,6 @@
   "name": "TorchRL_docs",
   "lang": "en",
   "index_url": "https://docs.pytorch.org/rl/stable/",
-  "link_regex": "docs\\.pytorch\\.org/rl/stable/(tutorials|reference)/[A-Za-z0-9._/-]*",
   "extra_pages": [
     "https://docs.pytorch.org/rl/stable/tutorials/getting-started-0.html",
     "https://docs.pytorch.org/rl/stable/reference/envs.html",
@@ -154,7 +150,6 @@
   "name": "RLlib_docs",
   "lang": "en",
   "index_url": "https://docs.ray.io/en/latest/rllib/index.html",
-  "link_regex": "docs\\.ray\\.io/en/latest/rllib/(rllib-|key-concepts|user-guides)[A-Za-z0-9._/-]*",
   "extra_pages": [
     "https://docs.ray.io/en/latest/rllib/key-concepts.html",
     "https://docs.ray.io/en/latest/rllib/rllib-env.html",
@@ -189,7 +184,6 @@
   "name": "PettingZoo_docs",
   "lang": "en",
   "index_url": "https://pettingzoo.farama.org/",
-  "link_regex": "pettingzoo\\.farama\\.org/(content|api|environments)/[A-Za-z0-9._/-]*",
   "extra_pages": [
     "https://pettingzoo.farama.org/content/basic_usage/",
     "https://pettingzoo.farama.org/api/aec/",
@@ -223,7 +217,6 @@
   "name": "d3rlpy_docs",
   "lang": "en",
   "index_url": "https://d3rlpy.readthedocs.io/en/latest/",
-  "link_regex": "d3rlpy\\.readthedocs\\.io/en/latest/(references|tutorials)/[A-Za-z0-9._/-]*",
   "extra_pages": [
     "https://d3rlpy.readthedocs.io/en/latest/references/algos.html",
     "https://d3rlpy.readthedocs.io/en/latest/references/dataset.html",

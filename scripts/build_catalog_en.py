@@ -177,7 +177,7 @@ def main():
             "子方向": cat, "名称": CATS[cat][1],
             "论文已核验": n, "论文近五年占比": pct, "其中已有复用": n_reuse,
             "教材已核验": books, "课程已核验": courses, "软件已核验": sw, "项目已核验": proj,
-            "失败/待核验": n_fail, "状态": "进行中"
+            "失败/待核验": n_fail, "状态": "本轮收集完成"
         })
     pp = ROOT/"progress_cn.csv"
     with pp.open("w", encoding="utf-8-sig", newline="") as f:
@@ -191,11 +191,18 @@ def main():
         rec=load(MAT_STATE/f"{r['编号']}.json", {})
         note=rec.get("note","")
         missing=""
-        if "LFS" in note or "lfs" in note:
+        if "发现可能的 LFS" in note:
             missing="可能有未保存的 LFS 对象，见核验说明"
+        nfiles = 0
+        if rec.get("files"):
+            nfiles = rec["files"][0].get("files") or len(rec.get("files") or [])
+        thin = nfiles and nfiles < 5
+        if thin:
+            missing = (missing + "；" if missing else "") + "配套仓库文件过少，算法正文可能不在本快照"
+        level = "L1" if rec.get("status")=="verified" and not thin else ("L0" if rec.get("status")=="verified" else "L0/未完成")
         ready.append({
             "编号": r["编号"], "项目": r["标题"], "本地路径": r["本地路径"],
-            "可运行性等级": "L1" if rec.get("status")=="verified" else "L0/未完成",
+            "可运行性等级": level,
             "静态核对": "入口/许可证/应有路径见核验说明" if rec.get("status")=="verified" else "未完成",
             "缺失依赖": missing or "本轮未安装运行依赖；未执行测试",
             "后续验证条件": "新建隔离环境，按 SNAPSHOT 与 README 安装依赖后做小型预测；禁止把上游 README 演示结果当作本机复现",

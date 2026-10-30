@@ -5,10 +5,10 @@
   "type": "原始研究论文",
   "level": "硕士",
   "difficulty": "中级",
-  "classic_reason": "TRPO（ICLR/ICML 脉络）：单调改进与信赖域。",
   "reason": "策略梯度的稳定更新约束。",
-  "summary": "约束策略改进、自然梯度/共轭梯度实现。",
-  "summary_basis": "arXiv 摘要"
+  "summary": "TRPO：约束策略改进。",
+  "summary_basis": "arXiv 摘要与元数据",
+  "classic_reason": "2015 TRPO。"
  },
  {
   "arxiv": "1707.06347",
@@ -16,10 +16,10 @@
   "type": "原始研究论文",
   "level": "硕士",
   "difficulty": "中级",
-  "classic_reason": "PPO：工程上最常用的信赖域近似。",
   "reason": "裁剪目标与实践稳定性。",
-  "summary": "PPO clip/KL 目标与连续/离散动作。",
-  "summary_basis": "arXiv 摘要"
+  "summary": "PPO。",
+  "summary_basis": "arXiv 摘要与元数据",
+  "classic_reason": "2017 PPO。"
  },
  {
   "arxiv": "1801.01290",
@@ -27,21 +27,10 @@
   "type": "原始研究论文",
   "level": "硕士",
   "difficulty": "中级",
-  "classic_reason": "SAC：最大熵目标下的 off-policy 演员–评论家。",
   "reason": "连续动作、熵正则与温度。",
-  "summary": "软 Actor-Critic 与自动温度调节。",
-  "summary_basis": "arXiv 摘要"
- },
- {
-  "arxiv": "1509.02971",
-  "subtopic": "确定性策略梯度",
-  "type": "原始研究论文",
-  "level": "硕士",
-  "difficulty": "中级",
-  "classic_reason": "DDPG：连续动作的确定性演员–评论家。",
-  "reason": "连续动作决策的经典基线。",
-  "summary": "深度确定性策略梯度、目标网络与回放。",
-  "summary_basis": "arXiv 摘要"
+  "summary": "SAC。",
+  "summary_basis": "arXiv 摘要与元数据",
+  "classic_reason": "2018 SAC。"
  },
  {
   "arxiv": "1802.09477",
@@ -49,10 +38,10 @@
   "type": "原始研究论文",
   "level": "硕士",
   "difficulty": "中级",
-  "classic_reason": "TD3：针对 DDPG 过估计的改进，连续控制基线。",
   "reason": "双 Q、延迟策略更新与目标平滑。",
-  "summary": "TD3 算法与 MuJoCo 评测。",
-  "summary_basis": "arXiv 摘要"
+  "summary": "TD3。",
+  "summary_basis": "arXiv 摘要与元数据",
+  "classic_reason": "2018 TD3。"
  },
  {
   "arxiv": "1602.01783",
@@ -60,9 +49,20 @@
   "type": "原始研究论文",
   "level": "硕士",
   "difficulty": "中级",
-  "classic_reason": "A3C：并行演员–评论家，策略梯度实践的另一条线。",
   "reason": "on-policy 演员–评论家与并行采样。",
-  "summary": "异步优势演员–评论家。",
-  "summary_basis": "arXiv 摘要"
+  "summary": "A3C。",
+  "summary_basis": "arXiv 摘要与元数据",
+  "classic_reason": "2016 A3C。"
+ },
+ {
+  "arxiv": "1806.06920",
+  "subtopic": "最大后验策略优化",
+  "type": "原始研究论文",
+  "level": "硕士",
+  "difficulty": "中级",
+  "reason": "连续动作下的信息论策略优化，对照 SAC/MPO。",
+  "summary": "MPO。",
+  "summary_basis": "arXiv 摘要与元数据",
+  "classic_reason": "2018 MPO。"
  }
 ]

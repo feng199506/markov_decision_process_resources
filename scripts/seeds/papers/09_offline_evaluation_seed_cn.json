@@ -5,10 +5,10 @@
   "type": "学术教程",
   "level": "硕士",
   "difficulty": "中级",
-  "classic_reason": "Levine et al. 2020 离线 RL 教程，定义分布偏移与约束。",
-  "reason": "离线数据策略学习的问题设定。",
-  "summary": "离线 RL 动机、算法族与挑战。",
-  "summary_basis": "arXiv 摘要"
+  "reason": "离线数据策略学习的问题设定、分布偏移与算法族。",
+  "summary": "离线 RL 动机、方法与开放问题。",
+  "summary_basis": "arXiv 摘要与元数据",
+  "classic_reason": "Levine et al. 2020 教程。"
  },
  {
   "arxiv": "2006.04779",
@@ -16,10 +16,10 @@
   "type": "原始研究论文",
   "level": "硕士",
   "difficulty": "中级",
-  "classic_reason": "CQL：对分布外动作的保守价值，离线 RL 主基线。",
-  "reason": "覆盖不足时的 OOD 动作。",
-  "summary": "保守 Q 正则与离线控制。",
-  "summary_basis": "arXiv 摘要"
+  "reason": "覆盖不足时的分布外动作。",
+  "summary": "CQL。",
+  "summary_basis": "arXiv 摘要与元数据",
+  "classic_reason": "2020 CQL。"
  },
  {
   "arxiv": "2110.06169",
@@ -27,9 +27,9 @@
   "type": "原始研究论文",
   "level": "硕士",
   "difficulty": "中级",
-  "reason": "IQL（ICLR 2022）：窗口内离线方法，避免显式查询 OOD 动作。",
-  "summary": "期望回归与优势加权。",
-  "summary_basis": "arXiv 摘要"
+  "reason": "避免显式查询 OOD 动作的离线方法。",
+  "summary": "IQL。",
+  "summary_basis": "arXiv 摘要与元数据"
  },
  {
   "arxiv": "2106.01345",
@@ -37,20 +37,20 @@
   "type": "原始研究论文",
   "level": "硕士",
   "difficulty": "中级",
-  "classic_reason": "Decision Transformer（NeurIPS 2021，2021-06 预印本略早于窗口）。",
-  "reason": "把轨迹当序列、不显式 Bellman 备份的对照路径。",
-  "summary": "条件回报的 Transformer 策略。",
-  "summary_basis": "arXiv 摘要"
+  "reason": "轨迹当序列、不显式 Bellman 备份的对照路径。",
+  "summary": "Decision Transformer。",
+  "summary_basis": "arXiv 摘要与元数据",
+  "classic_reason": "NeurIPS 2021，预印本 2021-06。"
  },
  {
-  "arxiv": "2208.05581",
+  "arxiv": "2203.01387",
   "subtopic": "离线强化学习综述",
   "type": "综述",
   "level": "硕士",
   "difficulty": "中级",
-  "reason": "窗口内综述，覆盖算法、基准与评价坑。",
-  "summary": "离线 RL 方法分类、数据集与开放问题。",
-  "summary_basis": "arXiv 摘要"
+  "reason": "算法、基准与评价坑。",
+  "summary": "离线 RL 分类、数据集与开放问题。",
+  "summary_basis": "arXiv 摘要与元数据"
  },
  {
   "arxiv": "1511.03722",
@@ -58,19 +58,19 @@
   "type": "原始研究论文",
   "level": "博士",
   "difficulty": "高级",
-  "classic_reason": "Jiang & Li ICML 2016：双重稳健 OPE。",
   "reason": "重要性采样高方差与模型偏差的折中。",
-  "summary": "DR 估计量及在策略评价中的应用。",
-  "summary_basis": "arXiv 摘要"
+  "summary": "双重稳健 OPE。",
+  "summary_basis": "arXiv 摘要与元数据",
+  "classic_reason": "ICML 2016 Jiang & Li。"
  },
  {
-  "arxiv": "2211.11030",
-  "subtopic": "离线 RL 复现基准",
+  "arxiv": "2210.07105",
+  "subtopic": "离线 RL 参考实现与评测",
   "type": "原始研究论文",
-  "level": "硕士",
+  "level": "工程",
   "difficulty": "中级",
-  "reason": "CORL：窗口内对离线算法复现与评测协议。",
-  "summary": "统一实现、超参与基准结果。",
-  "summary_basis": "arXiv 摘要"
+  "reason": "离线算法复现、配置与 D4RL 评测协议。",
+  "summary": "CORL 库与基准。",
+  "summary_basis": "arXiv 摘要与元数据"
  }
 ]
